@@ -5,8 +5,6 @@ from tensorflow import keras
 import numpy as np
 import matplotlib.pyplot as plt
 
-print(plt)
-
 print('Tensorflow version: {}'.format(tf.version))
 
 fashion_mnist = keras.datasets.fashion_mnist
